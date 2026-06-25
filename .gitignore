@@ -1,0 +1,72 @@
+# ---------------------------------------------
+# .gitignore — Visual Studio / .NET Framework (WinForms)
+# ---------------------------------------------
+
+# Derleme çıktıları
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+build/
+bld/
+[Oo]ut/
+
+# Visual Studio geçici / kullanıcı dosyaları
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Build sonuçları ve ara dosyalar
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.ipdb
+*.tlog
+*.log
+*.binlog
+
+# ReSharper / Rider
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+.idea/
+
+# Test sonuçları
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Yayınlama / ClickOnce
+publish/
+*.publishsettings
+*.azurePubxml
+
+# İşletim sistemi dosyaları
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Uygulama tarafından üretilen log dosyaları
+UART_Log_*.txt
+UART_Log_*.log
